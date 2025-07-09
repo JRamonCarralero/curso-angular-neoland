@@ -15,7 +15,7 @@ export interface Contact {
 @Injectable({
   providedIn: 'root'
 })
-export class Contact {
+export class ContactService {
 
   // URL base del API donde se gestionan los contactos
   private API = 'http://localhost:3000/contacts';
